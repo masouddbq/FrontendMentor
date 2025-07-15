@@ -12,13 +12,53 @@
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @font-face {
+      font-family: 'Outfit' ;
+      src: url('./Outfit-VariableFont_wght.ttf');
+    }
+
+    body{
+      font-family: 'Outfit';
+      background-color: hsl(212, 45%, 89%);
+      font-weight: 700;
+      text-align: center;
+      display: flex;
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .card{
+      width: 250px;
+      margin-bottom: 50px;
+      background-color: hsl(0, 0%, 100%);
+      padding: 14px;
+      border-radius: 20px;
+    }
+    .card h2{
+      color: hsl(218, 44%, 22%);
+    }
+    .card img{
+      width: 100%;
+      border-radius: 8px;
+    }
+    .card p{
+      font-weight: 400;
+      color: hsl(216, 15%, 48%);
+
+    }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
+  <div class="card">
+    <img src="./images/image-qr-code.png" alt="">
+    <h3>Improve your front-end skills by building projects</h3>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
 
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
